@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<link rel="manifest" href="./manifest.json">
+
+	<script type="text/javascript">
+		if('serviceWorker' in navigation) {
+			navigation.serviceWorker.register('sw.js', {scope: './'})
+		}
+	</script>
+</head>
+<head>
+	<div>
+		<h1>Recipes</h1>
+		<h2>Blub</h2>
+	</div>
+</head>
