@@ -8,7 +8,7 @@
   "start_url": "/index.html",
   "icons": [
     {
-      "src": "./RecipesPWA/icon.ico",
+      "src": "./icon.ico",
       "sizes": "16x16",
       "type": "image/ico"
     }
