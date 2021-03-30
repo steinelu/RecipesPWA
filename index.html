@@ -4,8 +4,8 @@
 	<link rel="manifest" href="./manifest.json">
 
 	<script type="text/javascript">
-		if('serviceWorker' in navigation) {
-			navigation.serviceWorker.register('sw.js', {scope: './'})
+		if('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('sw.js', {scope: './'})
 		}
 	</script>
 </head>
