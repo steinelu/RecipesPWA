@@ -1,0 +1,9 @@
+{
+  "name": "RecipesPWA",
+  "short_name": "Recipe",
+  "theme_color": "#2196f3",
+  "background_color": "#c6c6c6",
+  "display": "browser",
+  "scope": "/",
+  "start_url": "/"
+}
