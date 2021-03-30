@@ -3,7 +3,14 @@
   "short_name": "Recipe",
   "theme_color": "#2196f3",
   "background_color": "#c6c6c6",
-  "display": "browser",
+  "display": "standalone",
   "scope": "/",
-  "start_url": "/"
+  "start_url": "/index.html",
+  "icons": [
+    {
+      "src": "favicon.jpeg",
+      "sizes": "24x24",
+      "type": "image/jpeg"
+    }
+  ]
 }
