@@ -1,4 +1,3 @@
-
 const cacheName = 'RecipesPAW'
 
 self.addEventListener('install', event => {
