@@ -2,10 +2,11 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="manifest" href="./manifest.json">
+	<link rel="icon" href="data:;base64,iVBORw0KGgo=">
 	<script type="text/javascript" src="sw.js"></script>
 	<script type="text/javascript">
 		if('serviceWorker' in navigator) {
-			navigator.serviceWorker.register('sw.js', {scope: './'})
+			navigator.serviceWorker.register('./sw.js')
 			console.log("Service Worker installed successfully")
 		}
 	</script>
